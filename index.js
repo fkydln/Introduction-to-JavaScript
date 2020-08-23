@@ -2,7 +2,7 @@
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 var votingAge;
 
-if (age>18) {
+if (votingAge>18) {
     console.log(true);
 }
 
@@ -35,7 +35,8 @@ console.log(a*b);
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
+var humanAge;
+console.log(humanAge*7);
 
 
 
@@ -68,7 +69,11 @@ console.log(a*b);
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
+var rock = 1;
+var paper = 2;
+var scissor = 3;
 
+if ( Math.random())
   
   
 
